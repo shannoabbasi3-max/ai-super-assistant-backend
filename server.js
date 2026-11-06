@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const API_KEY = process.env.GEMINI_API_KEY;
 
 // Google की आधिकारिक सूची में मौजूद Stable मॉडल
-const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
+const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 
 const sleep = (ms) =>
   new Promise((resolve) => setTimeout(resolve, ms));
